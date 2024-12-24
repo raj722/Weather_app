@@ -22,17 +22,12 @@ This project is a weather application built using React.js with Vite as the buil
 1. First clone the repository
 
          git clone https://github.com/raj722/Weather_app
-2. Making a React App
 
-         npm create vite@latest react-weather 
-3. Select Frameworks
+2. Install Dependencies
 
-         Select a framework: › React
-         Select a variant: › JavaScript
-4. Install Dependencies
-
+         cd react-weather
          npm install
-5. Finally run the project
+3. Finally run the project
    
          npm run dev
          
