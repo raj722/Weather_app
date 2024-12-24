@@ -26,8 +26,8 @@ This project is a weather application built using React.js with Vite as the buil
     │   └── components  # Additional components (if any)
     ├── .gitignore      # Git ignore file
     ├── package.json    # Project dependencies and scripts
+    └── vite.config.js  # Vite configuration
     
-└── vite.config.js  # Vite configuration
 ## API Implementation
 1. API_KEY is used to make requests to the OpenWeather API endpoints
 
