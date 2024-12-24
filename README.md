@@ -25,7 +25,7 @@ This project is a weather application built using React.js with Vite as the buil
 
 2. Install Dependencies
 
-         cd react-weather
+         cd Weather_app
          npm install
 3. Finally run the project
    
