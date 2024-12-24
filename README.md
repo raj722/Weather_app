@@ -11,12 +11,41 @@ This project is a weather application built using React.js with Vite as the buil
    d. Wind speed<br/>
 4. Handles loading states and errors gracefully.
 
-## Technology satck
+## Technology stack
     React
     Vite
     OpenWeather API
     CSS
-## File Strusrure
+
+## Project Setup
+1. Making a React App
+
+         npm create vite@latest react-weather   
+2. Select Frameworks
+
+         Select a React Framework
+             Vanilla
+             Vue
+         >   React
+             Preact
+             Lit
+             Svelte
+             Solid
+             Qwik
+             Angular
+             Others
+          Select a Javascript
+             TypeScript
+             TypeScript + SWC
+         >   JavaScript
+             JavaScript + SWC
+             React Router v7 ↗
+3. Finally run the project
+   
+         npm run dev
+         
+
+## File Structure
     .
     ├── public          # Static files
     ├── src
@@ -32,6 +61,7 @@ This project is a weather application built using React.js with Vite as the buil
 1. API_KEY is used to make requests to the OpenWeather API endpoints
 
         const API_KEY = "8e2f448ffaa1cb72c42b03eb03a2eac7";//API key
+
 2. Fetch Weather Data
         
         const fetchWeatherData = async (cityName) => {
@@ -56,9 +86,6 @@ This project is a weather application built using React.js with Vite as the buil
             setLoading(false);
           }
         };
-
-## Fectching Data
-Sending a GET request to the https://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
 
 ## Output
 ![weather](https://github.com/user-attachments/assets/40e41e85-069c-45af-8471-48b2ac4ee84f)
